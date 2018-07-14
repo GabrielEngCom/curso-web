@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel= "stylesheet" type = "text/css" href = "css/style.css"/>
+
+<script src = "JS/autenticacao.js"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+
+<form method="post" onsubmit="return aut.validarCampos()">
+
+<label>Nome:</label>
+<input id= "txtUsuario"  name= "txtUsuario" type= "text"placeholder="digite seu nome">  
+
+<label>Senha:</label>
+<input id= "txtSenha"  name= "txtSenha" type= "password" placeholder="digite sua senha">  
+
+<input type= "submit"  value= "Autenticar" > 
+
+</form>
+
+</body>
+</html>
